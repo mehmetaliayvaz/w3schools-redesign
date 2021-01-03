@@ -1,0 +1,38 @@
+.Header {
+
+  &-logo{
+    display: flex;
+    flex-direction: column;
+
+    a, span{
+      margin-right: auto;
+      margin-left: auto;
+      font-size: 16px;
+
+      img{
+        max-width: 350px;
+        margin-top: 25px;
+      }
+    }
+
+  }
+
+}
+
+.Header-menu{
+  background-color: green;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+  margin-top: 20px;
+
+  ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    a{
+      padding: 15px;
+      color: #fff;
+      display: inline-block;
+    }
+  }
+}
