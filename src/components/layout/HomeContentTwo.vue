@@ -6,11 +6,11 @@
       <img src="../../assets/css-code.png" alt="">
     </div>
     <div class="description">
-      <h1>HTML</h1>
-      <p>The language for building web pages</p>
+      <h1>{{ info.title }}</h1>
+      <p>{{ info.description }}</p>
       <div class="description-button">
-        <button>Learn HTML</button>
-        <button>Learn Reference</button>
+        <button>{{ info.buttonLeft }}</button>
+        <button>{{ info.buttonRight }}</button>
       </div>
     </div>
   </div>
@@ -20,7 +20,8 @@
 <script>
 
 export default {
-  name: 'HomeContentTwo'
+  name: 'HomeContentTwo',
+  props: ['info']
 
 }
 </script>

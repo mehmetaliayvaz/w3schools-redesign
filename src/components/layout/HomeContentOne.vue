@@ -2,11 +2,11 @@
   <div class="Home-content-content">
     <div class="Content-container">
       <div class="description">
-      <h1>HTML</h1>
-      <p>The language for building web pages</p>
+      <h1>{{ info.title }}</h1>
+      <p>{{ info.description }}</p>
       <div class="description-button">
-        <button>Learn HTML</button>
-        <button>Learn Reference</button>
+        <button>{{ info.buttonLeft }}</button>
+        <button>{{ info.buttonRight }}</button>
       </div>
     </div>
     <div class="code">
@@ -20,7 +20,8 @@
 <script>
 
 export default {
-  name: 'HomeContentOne'
+  name: 'HomeContentOne',
+  props: ['info']
 
 }
 </script>
