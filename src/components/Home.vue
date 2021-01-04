@@ -1,8 +1,10 @@
 <template>
   <div>
     <Header-Menu :menu="menu"></Header-Menu>
-    <Home-Sidebar></Home-Sidebar>
-    <Home-Content></Home-Content>
+    <div class="Home-content">
+      <Home-Sidebar></Home-Sidebar>
+      <Home-Content></Home-Content>
+    </div>
   </div>
 </template>
 

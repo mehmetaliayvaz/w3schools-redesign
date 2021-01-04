@@ -1,9 +1,20 @@
 .Home-sidebar{
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
   display: inline-block;
-  min-width: 250px;
+  padding: 10px 0 50px 0;
+  flex-basis: 300px;
+  flex-grow: 0;
+  flex-shrink: 0;
 }
 
 .Sidebar-li{
   margin-top: 40px;
+
+  ul{
+    padding-left: 50px;
+
+    h2{
+      color: black;
+    }
+  }
 }
