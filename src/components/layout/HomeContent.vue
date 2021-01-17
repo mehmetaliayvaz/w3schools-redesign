@@ -47,9 +47,3 @@ export default {
   }
 }
 </script>
-
-<style>
-  .Home-content-wrapper {
-    flex: 1;
-  }
-</style>
