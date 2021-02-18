@@ -9,8 +9,8 @@
       <h1>{{ info.title }}</h1>
       <p>{{ info.description }}</p>
       <div class="description-button">
-        <button>{{ info.buttonLeft }}</button>
-        <button>{{ info.buttonRight }}</button>
+        <Button :button="info.buttonLeft"></Button>
+        <Button :button="info.buttonRight"></Button>
       </div>
     </div>
   </div>
@@ -18,9 +18,13 @@
 </template>
 
 <script>
+import Button from './Button';
 
 export default {
   name: 'HomeContentTwo',
+  components: {
+    Button
+  },
   props: ['info']
 
 }

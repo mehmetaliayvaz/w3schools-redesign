@@ -1,9 +1,9 @@
 <template>
   <div class="Header">
     <div class="Header-logo">
-      <a href="/">
+      <router-link :to="{ name: 'home' }">
         <img src="../../assets/logo.png" alt="">
-      </a>
+      </router-link>
       <span>THE WORLD’S LARGEST WEB DEVELOPER SITE</span>
     </div>
   </div>
