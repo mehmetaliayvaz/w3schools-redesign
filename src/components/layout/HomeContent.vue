@@ -11,6 +11,7 @@
 import HomeContentOne from './HomeContentOne';
 import HomeContentTwo from './HomeContentTwo';
 
+
 export default {
   name: 'HomeContent',
   components: {
@@ -23,25 +24,29 @@ export default {
         title: 'HTML',
         description: 'The language for building web pages',
         buttonLeft: 'Learn HTML',
-        buttonRight: 'Learn Reference'
+        buttonRight: 'Learn Reference',
+        code: 'let isPalindrome = (word) => {}',
       },
       info2: {
         title: 'CSS',
         description: 'The language for styling web pages',
         buttonLeft: 'Learn CSS',
-        buttonRight: 'Learn Reference'
+        buttonRight: 'Learn Reference',
+        code: 'let isPalindrome = (word) => {}',
       },
       info3: {
         title: 'JAVASCRIPT',
         description: 'The language for programming web pages',
         buttonLeft: 'Learn JAVASCRIPT',
-        buttonRight: 'Learn Reference'
+        buttonRight: 'Learn Reference',
+        code: 'let isPalindrome = (word) => {}',
       },
       info4: {
         title: 'SQL',
         description: 'A language for accessing databases',
         buttonLeft: 'Learn SQL',
-        buttonRight: 'Learn Reference'
+        buttonRight: 'Learn Reference',
+        code: 'let isPalindrome = (word) => {}',
       },
     }
   }

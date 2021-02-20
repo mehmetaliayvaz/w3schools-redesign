@@ -1,0 +1,17 @@
+@media screen and (max-width:900px){
+  .Home-sidebar {
+    display:none;
+  }
+
+  .Article-sidebar{
+    display: none;
+  }
+
+  .Content-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+}
+

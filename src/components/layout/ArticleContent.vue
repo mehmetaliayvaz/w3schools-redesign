@@ -1,8 +1,9 @@
 <template>
   <div class="Home-content-wrapper Content-container">
-    <div class="Article">
+    <div class="Article-content">
 
       <Title :title="title.one"></Title>
+      <Code :code="code.one"></Code>
       <Nav></Nav>
       <Paragraph :text="text.one"></Paragraph>
       <Button :button="button"></Button>
@@ -16,6 +17,7 @@ import Title from './Title';
 import Button from './Button';
 import Paragraph from './Paragraph';
 import Nav from './Nav.vue';
+import Code from './Code';
 
 export default {
   name: 'ArticleContent',
@@ -24,6 +26,7 @@ export default {
     Title,
     Paragraph,
     Nav,
+    Code,
   },
   data(){
     return {
@@ -35,6 +38,11 @@ export default {
       },
       title: {
         one: "Learn Javascript",
+      },
+      code: {
+        one: 'let isPalindrome = (word) => {}',
+              
+        
       }
     }
   }

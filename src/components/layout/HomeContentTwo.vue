@@ -3,7 +3,7 @@
     <div class="Content-container">
       <div class="code">
       <h3>Example</h3>
-      <img src="../../assets/css-code.png" alt="">
+      <Code :code="info.code"></Code>
     </div>
     <div class="description">
       <h1>{{ info.title }}</h1>
@@ -19,11 +19,13 @@
 
 <script>
 import Button from './Button';
+import Code from './Code';
 
 export default {
   name: 'HomeContentTwo',
   components: {
-    Button
+    Button,
+    Code,
   },
   props: ['info']
 
