@@ -25,7 +25,12 @@ export default {
         description: 'The language for building web pages',
         buttonLeft: 'Learn HTML',
         buttonRight: 'Learn Reference',
-        code: 'let isPalindrome = (word) => {}',
+        code: `<button onclick="myFunction()">Click Me!</button>
+function myFunction() {
+  var x = document.getElementById("demo");
+  x.style.fontSize = "25px";
+  x.style.color = "red";
+}`,
       },
       info2: {
         title: 'CSS',

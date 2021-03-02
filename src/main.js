@@ -2,9 +2,7 @@ import Vue from 'vue'
 import App from './App.vue'
 
 import router from './router';
-import VueCodeHighlight from 'vue-code-highlight';
-
-Vue.use(VueCodeHighlight);
+import 'vue-code-highlight/themes/prism-tomorrow.css';
 
 Vue.config.productionTip = false
 
