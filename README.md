@@ -1,4 +1,4 @@
-# w3schools
+# w3schools - redesign çalışması
 
 ## Project setup
 ```
