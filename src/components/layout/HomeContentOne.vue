@@ -11,7 +11,7 @@
       </div>
       <div class="code">
         <h3>Example</h3>
-        <Code :code="info.code"></Code>
+        <Code :code="info.code" :language="info.language"></Code>
       </div>
     </div>
   </div>

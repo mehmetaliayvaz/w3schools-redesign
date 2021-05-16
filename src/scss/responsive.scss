@@ -1,4 +1,20 @@
 @media screen and (max-width:900px){
+
+  .Header-menu{
+    position: relative;
+  
+    ul{
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
+
+  .Home-content-content{
+    .code{
+      max-width: 400px;
+    }
+  }
+
   .Home-sidebar {
     display:none;
   }
@@ -14,4 +30,5 @@
   }
 
 }
-
+  
+  

@@ -1,5 +1,5 @@
 <template>
-  <vue-code-highlight language="javascript">
+  <vue-code-highlight :language="language">
     <pre>{{ code }}</pre>
   </vue-code-highlight>
 </template>
@@ -12,6 +12,6 @@ export default {
   components:{
     VueCodeHighlight,
   },
-  props: ['code'],
+  props: ['code', 'language'],
 }
 </script>

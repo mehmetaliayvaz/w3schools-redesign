@@ -1,9 +1,11 @@
 @import "normalize.scss";
 @import "global.scss";
+
 @import "./components/header.scss";
 @import "./components/sidebar.scss";
 @import "./components/homeContentContent.scss";
 @import "./components/button.scss";
 @import "./components/article.scss";
 @import "./components/nav.scss";
-@import "./mobile.scss";
+
+@import "responsive.scss";

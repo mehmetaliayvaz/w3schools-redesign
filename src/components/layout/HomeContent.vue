@@ -22,8 +22,34 @@ export default {
     return {
       info1: {
         title: 'HTML',
+        language: 'html',
         description: 'The language for building web pages',
         buttonLeft: 'Learn HTML',
+        buttonRight: 'Learn Reference',
+        code: `<h3>Hello Word</h3>
+<h1>This is a Heading</h1>
+<p>This is a paragraph.</p>`,
+      },
+      info2: {
+        title: 'CSS',
+        language: 'css',
+        description: 'The language for styling web pages',
+        buttonLeft: 'Learn CSS',
+        buttonRight: 'Learn Reference',
+        code: `body {
+  background-color: lightblue;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}`,
+      },
+      info3: {
+        title: 'JAVASCRIPT',
+        language: 'javascript',
+        description: 'The language for programming web pages',
+        buttonLeft: 'Learn JAVASCRIPT',
         buttonRight: 'Learn Reference',
         code: `<button onclick="myFunction()">Click Me!</button>
 function myFunction() {
@@ -32,26 +58,13 @@ function myFunction() {
   x.style.color = "red";
 }`,
       },
-      info2: {
-        title: 'CSS',
-        description: 'The language for styling web pages',
-        buttonLeft: 'Learn CSS',
-        buttonRight: 'Learn Reference',
-        code: 'let isPalindrome = (word) => {}',
-      },
-      info3: {
-        title: 'JAVASCRIPT',
-        description: 'The language for programming web pages',
-        buttonLeft: 'Learn JAVASCRIPT',
-        buttonRight: 'Learn Reference',
-        code: 'let isPalindrome = (word) => {}',
-      },
       info4: {
         title: 'SQL',
+        language: 'sql',
         description: 'A language for accessing databases',
         buttonLeft: 'Learn SQL',
         buttonRight: 'Learn Reference',
-        code: 'let isPalindrome = (word) => {}',
+        code: 'SELECT * FROM Customers;',
       },
     }
   }
