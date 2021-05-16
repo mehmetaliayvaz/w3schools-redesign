@@ -1,8 +1,8 @@
 # w3schools - redesign çalışması
 
-Demo [Configuration Reference](https://w3schools-redesign.vercel.app/)
+[Demo](https://w3schools-redesign.vercel.app/)
 
-Figma üzerinde tasarımı görüntüle [Configuration Reference](https://www.figma.com/file/CUnZAHvCA6yChyK6v0qSpY/w3schools-redesign?node-id=0%3A1)
+[Figma üzerinde tasarımı görüntüle](https://www.figma.com/file/CUnZAHvCA6yChyK6v0qSpY/w3schools-redesign?node-id=0%3A1)
 
 ## Project setup
 ```
